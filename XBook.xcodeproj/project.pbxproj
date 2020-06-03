@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A44A46A024868E6500F7BDC5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A469F24868E6500F7BDC5 /* CustomButton.swift */; };
+		A49AF8FC2485551400167518 /* AllExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49AF8FB2485551400167518 /* AllExerciseCell.swift */; };
+		A49AF8FE2485554000167518 /* RecentExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49AF8FD2485554000167518 /* RecentExerciseCell.swift */; };
+		A49AF90024855C9C00167518 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49AF8FF24855C9C00167518 /* ColorExtension.swift */; };
+		A49AF903248562D700167518 /* ExercisePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49AF902248562D700167518 /* ExercisePlayerViewController.swift */; };
+		A4B9F09524861F9B00B7FFE3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B9F09424861F9B00B7FFE3 /* CloudKit.framework */; };
 		A4BADF43248511E20028DD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BADF42248511E20028DD20 /* AppDelegate.swift */; };
 		A4BADF45248511E20028DD20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BADF44248511E20028DD20 /* SceneDelegate.swift */; };
-		A4BADF47248511E20028DD20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BADF46248511E20028DD20 /* ViewController.swift */; };
+		A4BADF47248511E20028DD20 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BADF46248511E20028DD20 /* OnBoardingViewController.swift */; };
 		A4BADF4A248511E20028DD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BADF48248511E20028DD20 /* Main.storyboard */; };
 		A4BADF4C248511E40028DD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BADF4B248511E40028DD20 /* Assets.xcassets */; };
 		A4BADF4F248511E40028DD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BADF4D248511E40028DD20 /* LaunchScreen.storyboard */; };
+		A4BADF58248514D00028DD20 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BADF57248514D00028DD20 /* BaseCell.swift */; };
+		A4BADF5A248515250028DD20 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BADF59248515250028DD20 /* PageCell.swift */; };
+		A4D7022124851F6700C6C021 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7022024851F6700C6C021 /* LoginViewController.swift */; };
+		A4D702242485369400C6C021 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D702232485369400C6C021 /* MainViewController.swift */; };
+		A4D7022624853ADD00C6C021 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7022524853ADD00C6C021 /* ExerciseViewController.swift */; };
+		A4D7022824853AEE00C6C021 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7022724853AEE00C6C021 /* ProgressViewController.swift */; };
+		A4D7022A24853B0500C6C021 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7022924853B0500C6C021 /* RewardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A44A469F24868E6500F7BDC5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A49AF8FB2485551400167518 /* AllExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExerciseCell.swift; sourceTree = "<group>"; };
+		A49AF8FD2485554000167518 /* RecentExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentExerciseCell.swift; sourceTree = "<group>"; };
+		A49AF8FF24855C9C00167518 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		A49AF902248562D700167518 /* ExercisePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePlayerViewController.swift; sourceTree = "<group>"; };
+		A4B9F09224861F8F00B7FFE3 /* XBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XBook.entitlements; sourceTree = "<group>"; };
+		A4B9F09424861F9B00B7FFE3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		A4BADF3F248511E20028DD20 /* XBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BADF42248511E20028DD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4BADF44248511E20028DD20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4BADF46248511E20028DD20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4BADF46248511E20028DD20 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		A4BADF49248511E20028DD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4BADF4B248511E40028DD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4BADF4E248511E40028DD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4BADF50248511E40028DD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BADF57248514D00028DD20 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		A4BADF59248515250028DD20 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		A4D7022024851F6700C6C021 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4D702232485369400C6C021 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A4D7022524853ADD00C6C021 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		A4D7022724853AEE00C6C021 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		A4D7022924853B0500C6C021 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +58,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B9F09524861F9B00B7FFE3 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A49AF901248562A700167518 /* ExercisePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A49AF902248562D700167518 /* ExercisePlayerViewController.swift */,
+			);
+			path = ExercisePlayer;
+			sourceTree = "<group>";
+		};
+		A4B9F09324861F9B00B7FFE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B9F09424861F9B00B7FFE3 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4BADF36248511E20028DD20 = {
 			isa = PBXGroup;
 			children = (
 				A4BADF41248511E20028DD20 /* XBook */,
 				A4BADF40248511E20028DD20 /* Products */,
+				A4B9F09324861F9B00B7FFE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,60 @@
 		A4BADF41248511E20028DD20 /* XBook */ = {
 			isa = PBXGroup;
 			children = (
+				A4B9F09224861F8F00B7FFE3 /* XBook.entitlements */,
+				A49AF901248562A700167518 /* ExercisePlayer */,
+				A4D702222485367B00C6C021 /* Main */,
+				A4D7021F24851F0400C6C021 /* Login */,
+				A4BADF5B248515520028DD20 /* OnBoarding */,
+				A4BADF56248514C10028DD20 /* Common */,
 				A4BADF42248511E20028DD20 /* AppDelegate.swift */,
 				A4BADF44248511E20028DD20 /* SceneDelegate.swift */,
-				A4BADF46248511E20028DD20 /* ViewController.swift */,
 				A4BADF48248511E20028DD20 /* Main.storyboard */,
 				A4BADF4B248511E40028DD20 /* Assets.xcassets */,
 				A4BADF4D248511E40028DD20 /* LaunchScreen.storyboard */,
 				A4BADF50248511E40028DD20 /* Info.plist */,
 			);
 			path = XBook;
+			sourceTree = "<group>";
+		};
+		A4BADF56248514C10028DD20 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A4BADF57248514D00028DD20 /* BaseCell.swift */,
+				A4BADF59248515250028DD20 /* PageCell.swift */,
+				A49AF8FB2485551400167518 /* AllExerciseCell.swift */,
+				A49AF8FD2485554000167518 /* RecentExerciseCell.swift */,
+				A49AF8FF24855C9C00167518 /* ColorExtension.swift */,
+				A44A469F24868E6500F7BDC5 /* CustomButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A4BADF5B248515520028DD20 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A4BADF46248511E20028DD20 /* OnBoardingViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		A4D7021F24851F0400C6C021 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7022024851F6700C6C021 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A4D702222485367B00C6C021 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A4D702232485369400C6C021 /* MainViewController.swift */,
+				A4D7022524853ADD00C6C021 /* ExerciseViewController.swift */,
+				A4D7022724853AEE00C6C021 /* ProgressViewController.swift */,
+				A4D7022924853B0500C6C021 /* RewardViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +228,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4BADF47248511E20028DD20 /* ViewController.swift in Sources */,
+				A49AF8FC2485551400167518 /* AllExerciseCell.swift in Sources */,
+				A4D702242485369400C6C021 /* MainViewController.swift in Sources */,
+				A4D7022124851F6700C6C021 /* LoginViewController.swift in Sources */,
+				A4BADF58248514D00028DD20 /* BaseCell.swift in Sources */,
+				A4BADF5A248515250028DD20 /* PageCell.swift in Sources */,
+				A49AF903248562D700167518 /* ExercisePlayerViewController.swift in Sources */,
+				A4BADF47248511E20028DD20 /* OnBoardingViewController.swift in Sources */,
+				A4D7022A24853B0500C6C021 /* RewardViewController.swift in Sources */,
 				A4BADF43248511E20028DD20 /* AppDelegate.swift in Sources */,
+				A49AF8FE2485554000167518 /* RecentExerciseCell.swift in Sources */,
+				A4D7022824853AEE00C6C021 /* ProgressViewController.swift in Sources */,
+				A4D7022624853ADD00C6C021 /* ExerciseViewController.swift in Sources */,
 				A4BADF45248511E20028DD20 /* SceneDelegate.swift in Sources */,
+				A49AF90024855C9C00167518 /* ColorExtension.swift in Sources */,
+				A44A46A024868E6500F7BDC5 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +386,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XBook/XBook.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B95GL74T5A;
 				INFOPLIST_FILE = XBook/Info.plist;
@@ -291,8 +395,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.infinity.XBook.XBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinity.Xbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +407,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XBook/XBook.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B95GL74T5A;
 				INFOPLIST_FILE = XBook/Info.plist;
@@ -309,8 +416,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.infinity.XBook.XBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinity.Xbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

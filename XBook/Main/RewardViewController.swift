@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RewardViewController.swift
 //  XBook
 //
 //  Created by Ganang Arief Pratama on 01/06/20.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RewardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        self.view.backgroundColor = .white
+        self.navigationController?.navigationBar.isHidden = true
     }
 
-
 }
-
